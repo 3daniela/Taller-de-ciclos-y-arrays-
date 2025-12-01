@@ -1,0 +1,43 @@
+class Contador {
+
+    public static void main(String[] args) {
+        int i = 10;  // Inicializamos i en 10
+
+        // Usamos un ciclo while para contar hacia abajo
+        while (i >= 1) {
+            System.out.println(i);  // Imprime el valor de i
+            i--;  // Decrementamos i en cada iteración
+        }
+    }
+}
+
+
+
+ class Main {
+ 
+     public static void main(String[] args) {
+         int i = 1;  // Inicializamos i en 1
+
+         // Ciclo do-while para mostrar el mensaje 5 veces
+         do {
+             System.out.println("Bienvenido al curso de Java");
+             i++;  // Incrementamos i en cada iteración
+         } while (i <= 5);  // Continuamos mientras i sea menor o igual a 5
+     }
+ }
+
+
+
+ class ContarEstudiantes {
+ 
+     public static void main(String[] args) {
+         // Suponemos que tenemos 40 estudiantes en la fila
+         int cantidad_de_estudiantes = 40;
+
+         // Ciclo para contar estudiantes desde el 1 hasta la cantidad total
+         for (int i = 1; i <= cantidad_de_estudiantes; i++) {
+             System.out.println("Estudiante " + i);  // Muestra el número de cada estudiante
+         }
+     }
+ }
+
