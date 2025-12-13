@@ -1,0 +1,91 @@
+parte 3 
+
+
+class contador  {
+
+     public static void main(String[] args) {
+         int contador = 1;
+
+         System.out.println("Números del 1 al 10 usando while:");
+         System.out.println("=================================");
+
+         while (contador <= 10) {
+             System.out.println("Número: " + contador);
+             contador++; // Incrementar el contador
+         }
+
+         System.out.println("¡Fin del programa!");
+     }
+ }
+
+
+
+
+
+ class pares  {
+
+     public static void main(String[] args) {
+         int numero = 2;
+
+         System.out.println("Números pares del 2 al 20 usando while:");
+         System.out.println("========================================");
+
+         while (numero <= 20) {
+             System.out.println("Número par: " + numero);
+             numero += 2; // Incrementamos de 2 en 2
+         }
+
+         System.out.println("¡Todos los números pares han sido mostrados!");
+     }
+ }
+
+
+
+
+class Suma {
+
+     public static void main(String[] args) {
+         int numero = 1;
+         int suma = 0;
+
+         System.out.println("Sumando los números del 1 al 10...");
+         System.out.println("===================================");
+
+         while (numero <= 10) {
+             System.out.println("Número actual: " + numero);
+             System.out.println("Suma parcial: " + suma + " + " + numero + " = " + (suma + numero));
+
+             suma += numero; // Acumulamos la suma
+             numero++; // Pasamos al siguiente número
+
+             System.out.println("Nueva suma acumulada: " + suma);
+             System.out.println("-----------------------------");
+         }
+
+         System.out.println("===================================");
+         System.out.println("La suma total de los números del 1 al 10 es: " + suma);
+         System.out.println("¡Fin del programa!");
+     }
+ }
+
+
+
+
+parte 4
+
+
+class Numero {
+     public static void main(String[] args) {
+         int contador = 1;
+
+         System.out.println("Números del 1 al 5 usando do-while:");
+         System.out.println("====================================");
+
+         do {
+             System.out.println("Número: " + contador);
+             contador++; // Incrementar el contador
+         } while (contador <= 5);
+
+         System.out.println("¡Fin del programa!");
+     }
+ }
